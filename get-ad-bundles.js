@@ -10,12 +10,6 @@ const {
 const { exec } = require("child-process-promise");
 const beautify = require("js-beautify").js_beautify;
 
-/* 
-- for each repo branch:
-    - run compilation
-		- take compiled script and consolidate w/in folder on same level as repos
-*/
-
 async function getAdBundles() {
   const adVersions = await readdir(path.resolve("versions"));
   const pathedAdVersions = adVersions.map(version =>
