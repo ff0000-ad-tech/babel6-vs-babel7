@@ -1,5 +1,12 @@
 const path = require("path");
-const { copy, readdir, readFile, writeFile, mkdirp } = require("fs-extra");
+const {
+  copy,
+  readdir,
+  readFile,
+  writeFile,
+  mkdirp,
+  stat
+} = require("fs-extra");
 const { exec } = require("child-process-promise");
 const beautify = require("js-beautify").js_beautify;
 
@@ -17,15 +24,18 @@ async function getAdBundles() {
 
   const compilePromises = pathedAdVersions.map(async (version, idx) => {
     try {
+      const versionName = adVersions[idx];
+      const jsonPath = path.resolve("json", `${versionName}.json`);
+
+      // start Webpack compilation while exporting compilation information to json folder
       await exec(
-        `cd ${version} && npx webpack --config 'webpack.config.js' --env '{"deploy":{"source":{"size":"300x250","index":"index.html"},"output":{"debug":false,"context":"./3-traffic"},"profile":{"name":"default","adEnvironment":{"id":"default","runPath":"","adPath":""}}},"key":"/default/300x250/index.html"}' --colors --profile --json > stats.json`
+        `cd ${version} && npx webpack --config 'webpack.config.js' --env '{"deploy":{"source":{"size":"300x250","index":"index.html"},"output":{"debug":false,"context":"./3-traffic"},"profile":{"name":"default","adEnvironment":{"id":"default","runPath":"","adPath":""}}},"key":"/default/300x250/index.html"}' --colors --profile --json > ${jsonPath}`
       );
 
       const bundlePath = path.resolve(
         version,
         "3-traffic/default/300x250/build.bundle.js"
       );
-      const versionName = adVersions[idx];
 
       // copy version bundle to bundles folder
       await copy(
@@ -45,7 +55,7 @@ async function getAdBundles() {
   });
 
   await Promise.all(compilePromises);
-  console.log("DONEDONE");
+  console.log("Compilations complete");
 }
 
 getAdBundles();
