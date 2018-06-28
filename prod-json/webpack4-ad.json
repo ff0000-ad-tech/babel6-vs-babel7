@@ -3,8 +3,8 @@
   "warnings": [],
   "version": "4.12.1",
   "hash": "fd86e8f72827bd35516d",
-  "time": 17265,
-  "builtAt": 1530206928300,
+  "time": 18976,
+  "builtAt": 1530207752550,
   "publicPath": "",
   "outputPath": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/3-traffic/default/300x250",
   "assetsByChunkName": {
@@ -128,61 +128,32 @@
             0,
             2
           ],
-          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "issuerId": 62,
-          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "issuerId": 59,
+          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-              "name": "./1-build/300x250/build.js",
+              "id": 4,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
               "profile": {
-                "factory": 200,
-                "dependencies": 5,
-                "building": 3468
+                "factory": 121,
+                "dependencies": 1,
+                "building": 2402
               }
             },
             {
-              "id": 12,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+              "id": 59,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "profile": {
-                "factory": 0,
-                "building": 53
-              }
-            },
-            {
-              "id": 5,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "profile": {
-                "factory": 60,
-                "building": 213,
-                "dependencies": 1
-              }
-            },
-            {
-              "id": 67,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "profile": {
-                "factory": 379,
-                "building": 14
-              }
-            },
-            {
-              "id": 62,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "profile": {
-                "factory": 32,
-                "building": 244,
-                "dependencies": 443
+                "factory": 1,
+                "building": 39
               }
             }
           ],
           "profile": {
-            "factory": 204,
+            "factory": 549,
             "building": 7
           },
           "failed": false,
@@ -215,16 +186,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "2:16-22"
-            },
-            {
-              "moduleId": 59,
-              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "type": "harmony import specifier",
-              "userRequest": "ad-load",
-              "loc": "53:9-15"
+              "loc": "31:6-12"
             },
             {
               "moduleId": 59,
@@ -234,6 +196,15 @@
               "type": "harmony import specifier",
               "userRequest": "ad-load",
               "loc": "47:7-13"
+            },
+            {
+              "moduleId": 59,
+              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "type": "harmony import specifier",
+              "userRequest": "ad-load",
+              "loc": "53:9-15"
             },
             {
               "moduleId": 59,
@@ -251,7 +222,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "31:6-12"
+              "loc": "2:16-22"
             },
             {
               "moduleId": 62,
@@ -260,16 +231,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "51:10-21"
-            },
-            {
-              "moduleId": 62,
-              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "type": "harmony import specifier",
-              "userRequest": "ad-load",
-              "loc": "167:30-36"
+              "loc": "142:28-34"
             },
             {
               "moduleId": 62,
@@ -287,7 +249,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "142:28-34"
+              "loc": "167:30-36"
             },
             {
               "moduleId": 62,
@@ -297,6 +259,15 @@
               "type": "harmony side effect evaluation",
               "userRequest": "ad-load",
               "loc": "10:0-46"
+            },
+            {
+              "moduleId": 62,
+              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "type": "harmony import specifier",
+              "userRequest": "ad-load",
+              "loc": "51:10-21"
             }
           ],
           "usedExports": true,
@@ -321,62 +292,33 @@
             0,
             2
           ],
-          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-          "issuerId": 66,
-          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
+          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "issuerId": 59,
+          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-              "name": "./1-build/300x250/build.js",
+              "id": 4,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
               "profile": {
-                "factory": 200,
-                "dependencies": 5,
-                "building": 3468
+                "factory": 121,
+                "dependencies": 1,
+                "building": 2402
               }
             },
             {
-              "id": 12,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+              "id": 59,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "profile": {
-                "factory": 0,
-                "building": 53
-              }
-            },
-            {
-              "id": 5,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "profile": {
-                "factory": 60,
-                "building": 213,
-                "dependencies": 1
-              }
-            },
-            {
-              "id": 67,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "profile": {
-                "factory": 379,
-                "building": 14
-              }
-            },
-            {
-              "id": 66,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-              "profile": {
-                "factory": 32,
-                "building": 244,
-                "dependencies": 443
+                "factory": 1,
+                "building": 39
               }
             }
           ],
           "profile": {
-            "factory": 443,
-            "building": 3
+            "factory": 549,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -474,9 +416,9 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           },
           "failed": false,
           "errors": 0,
@@ -551,9 +493,9 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 200,
+            "factory": 285,
             "dependencies": 1,
-            "building": 746
+            "building": 1101
           },
           "failed": false,
           "errors": 0,
@@ -623,61 +565,32 @@
             0,
             2
           ],
-          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "issuerId": 62,
-          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "issuerId": 59,
+          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-              "name": "./1-build/300x250/build.js",
+              "id": 4,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
               "profile": {
-                "factory": 200,
-                "dependencies": 5,
-                "building": 3468
+                "factory": 121,
+                "dependencies": 1,
+                "building": 2402
               }
             },
             {
-              "id": 12,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+              "id": 59,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "profile": {
-                "factory": 0,
-                "building": 53
-              }
-            },
-            {
-              "id": 5,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "profile": {
-                "factory": 60,
-                "building": 213,
-                "dependencies": 1
-              }
-            },
-            {
-              "id": 67,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "profile": {
-                "factory": 379,
-                "building": 14
-              }
-            },
-            {
-              "id": 62,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "profile": {
-                "factory": 32,
-                "building": 244,
-                "dependencies": 443
+                "factory": 1,
+                "building": 39
               }
             }
           ],
           "profile": {
-            "factory": 204,
+            "factory": 549,
             "building": 7
           },
           "failed": false,
@@ -710,16 +623,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "2:16-22"
-            },
-            {
-              "moduleId": 59,
-              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-              "type": "harmony import specifier",
-              "userRequest": "ad-load",
-              "loc": "53:9-15"
+              "loc": "31:6-12"
             },
             {
               "moduleId": 59,
@@ -729,6 +633,15 @@
               "type": "harmony import specifier",
               "userRequest": "ad-load",
               "loc": "47:7-13"
+            },
+            {
+              "moduleId": 59,
+              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "type": "harmony import specifier",
+              "userRequest": "ad-load",
+              "loc": "53:9-15"
             },
             {
               "moduleId": 59,
@@ -746,7 +659,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "31:6-12"
+              "loc": "2:16-22"
             },
             {
               "moduleId": 62,
@@ -755,16 +668,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "51:10-21"
-            },
-            {
-              "moduleId": 62,
-              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-              "type": "harmony import specifier",
-              "userRequest": "ad-load",
-              "loc": "167:30-36"
+              "loc": "142:28-34"
             },
             {
               "moduleId": 62,
@@ -782,7 +686,7 @@
               "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
               "type": "harmony import specifier",
               "userRequest": "ad-load",
-              "loc": "142:28-34"
+              "loc": "167:30-36"
             },
             {
               "moduleId": 62,
@@ -792,6 +696,15 @@
               "type": "harmony side effect evaluation",
               "userRequest": "ad-load",
               "loc": "10:0-46"
+            },
+            {
+              "moduleId": 62,
+              "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+              "type": "harmony import specifier",
+              "userRequest": "ad-load",
+              "loc": "51:10-21"
             }
           ],
           "usedExports": true,
@@ -816,62 +729,33 @@
             0,
             2
           ],
-          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-          "issuerId": 66,
-          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
+          "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "issuerId": 59,
+          "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-              "name": "./1-build/300x250/build.js",
+              "id": 4,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
               "profile": {
-                "factory": 200,
-                "dependencies": 5,
-                "building": 3468
+                "factory": 121,
+                "dependencies": 1,
+                "building": 2402
               }
             },
             {
-              "id": 12,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+              "id": 59,
+              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
               "profile": {
-                "factory": 0,
-                "building": 53
-              }
-            },
-            {
-              "id": 5,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-              "profile": {
-                "factory": 60,
-                "building": 213,
-                "dependencies": 1
-              }
-            },
-            {
-              "id": 67,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-              "profile": {
-                "factory": 379,
-                "building": 14
-              }
-            },
-            {
-              "id": 66,
-              "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-              "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-              "profile": {
-                "factory": 32,
-                "building": 244,
-                "dependencies": 443
+                "factory": 1,
+                "building": 39
               }
             }
           ],
           "profile": {
-            "factory": 443,
-            "building": 3
+            "factory": 549,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -969,9 +853,9 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           },
           "failed": false,
           "errors": 0,
@@ -1025,61 +909,32 @@
         0,
         2
       ],
-      "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-      "issuerId": 62,
-      "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+      "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+      "issuerId": 59,
+      "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
       "issuerPath": [
         {
-          "id": 2,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-          "name": "./1-build/300x250/build.js",
+          "id": 4,
+          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         },
         {
-          "id": 12,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+          "id": 59,
+          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "profile": {
-            "factory": 0,
-            "building": 53
-          }
-        },
-        {
-          "id": 5,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-          "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
-          }
-        },
-        {
-          "id": 67,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-          "profile": {
-            "factory": 379,
-            "building": 14
-          }
-        },
-        {
-          "id": 62,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 1,
+            "building": 39
           }
         }
       ],
       "profile": {
-        "factory": 204,
+        "factory": 549,
         "building": 7
       },
       "failed": false,
@@ -1112,16 +967,7 @@
           "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "type": "harmony import specifier",
           "userRequest": "ad-load",
-          "loc": "2:16-22"
-        },
-        {
-          "moduleId": 59,
-          "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-          "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-          "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
-          "type": "harmony import specifier",
-          "userRequest": "ad-load",
-          "loc": "53:9-15"
+          "loc": "31:6-12"
         },
         {
           "moduleId": 59,
@@ -1131,6 +977,15 @@
           "type": "harmony import specifier",
           "userRequest": "ad-load",
           "loc": "47:7-13"
+        },
+        {
+          "moduleId": 59,
+          "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "module": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "type": "harmony import specifier",
+          "userRequest": "ad-load",
+          "loc": "53:9-15"
         },
         {
           "moduleId": 59,
@@ -1148,7 +1003,7 @@
           "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "type": "harmony import specifier",
           "userRequest": "ad-load",
-          "loc": "31:6-12"
+          "loc": "2:16-22"
         },
         {
           "moduleId": 62,
@@ -1157,16 +1012,7 @@
           "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
           "type": "harmony import specifier",
           "userRequest": "ad-load",
-          "loc": "51:10-21"
-        },
-        {
-          "moduleId": 62,
-          "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
-          "type": "harmony import specifier",
-          "userRequest": "ad-load",
-          "loc": "167:30-36"
+          "loc": "142:28-34"
         },
         {
           "moduleId": 62,
@@ -1184,7 +1030,7 @@
           "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
           "type": "harmony import specifier",
           "userRequest": "ad-load",
-          "loc": "142:28-34"
+          "loc": "167:30-36"
         },
         {
           "moduleId": 62,
@@ -1194,6 +1040,15 @@
           "type": "harmony side effect evaluation",
           "userRequest": "ad-load",
           "loc": "10:0-46"
+        },
+        {
+          "moduleId": 62,
+          "moduleIdentifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+          "module": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+          "moduleName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/ImageManager.js",
+          "type": "harmony import specifier",
+          "userRequest": "ad-load",
+          "loc": "51:10-21"
         }
       ],
       "usedExports": true,
@@ -1218,62 +1073,33 @@
         0,
         2
       ],
-      "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-      "issuerId": 66,
-      "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
+      "issuer": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+      "issuerId": 59,
+      "issuerName": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
       "issuerPath": [
         {
-          "id": 2,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
-          "name": "./1-build/300x250/build.js",
+          "id": 4,
+          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
+          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         },
         {
-          "id": 12,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
+          "id": 59,
+          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
+          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/payloader.js",
           "profile": {
-            "factory": 0,
-            "building": 53
-          }
-        },
-        {
-          "id": 5,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
-          "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
-          }
-        },
-        {
-          "id": 67,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
-          "profile": {
-            "factory": 379,
-            "building": 14
-          }
-        },
-        {
-          "id": 66,
-          "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-          "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Core.js",
-          "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 1,
+            "building": 39
           }
         }
       ],
       "profile": {
-        "factory": 443,
-        "building": 3
+        "factory": 549,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -1371,9 +1197,9 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 200,
-        "dependencies": 5,
-        "building": 3468
+        "factory": 286,
+        "dependencies": 7,
+        "building": 4936
       },
       "failed": false,
       "errors": 0,
@@ -1417,9 +1243,9 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 200,
+        "factory": 285,
         "dependencies": 1,
-        "building": 746
+        "building": 1101
       },
       "failed": false,
       "errors": 0,
@@ -1463,9 +1289,9 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 77,
-        "dependencies": 203,
-        "building": 1646
+        "factory": 121,
+        "dependencies": 1,
+        "building": 2402
       },
       "failed": false,
       "errors": 0,
@@ -1511,9 +1337,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -1521,15 +1347,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -1725,9 +1551,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -1735,15 +1561,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -1813,9 +1639,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -1823,15 +1649,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -1992,9 +1818,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -2002,15 +1828,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -2076,9 +1902,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -2086,15 +1912,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -2165,9 +1991,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -2175,15 +2001,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -2252,9 +2078,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -2262,15 +2088,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         }
       ],
       "profile": {
-        "factory": 60,
-        "building": 213,
-        "dependencies": 1
+        "factory": 74,
+        "building": 288,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -2347,15 +2173,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         }
       ],
       "profile": {
-        "factory": 0,
-        "building": 53
+        "factory": 1,
+        "building": 68
       },
       "failed": false,
       "errors": 0,
@@ -3210,9 +3036,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3220,8 +3046,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3229,9 +3055,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3239,15 +3065,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3317,9 +3143,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3327,8 +3153,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3336,9 +3162,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3346,15 +3172,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3422,9 +3248,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3432,8 +3258,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3441,9 +3267,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3451,15 +3277,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3525,9 +3351,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3535,8 +3361,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3544,9 +3370,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3554,15 +3380,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3629,9 +3455,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3639,8 +3465,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3648,9 +3474,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3658,15 +3484,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3744,9 +3570,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3754,8 +3580,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3763,9 +3589,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3773,15 +3599,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3847,9 +3673,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3857,8 +3683,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3866,9 +3692,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3876,15 +3702,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3950,9 +3776,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -3960,8 +3786,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -3969,9 +3795,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -3979,15 +3805,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -4055,9 +3881,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4065,8 +3891,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -4074,9 +3900,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -4084,15 +3910,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -4165,9 +3991,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4175,8 +4001,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -4184,9 +4010,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -4194,15 +4020,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-utils/index.js",
           "profile": {
-            "factory": 489,
-            "building": 7
+            "factory": 761,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 302,
-        "building": 169,
-        "dependencies": 5
+        "factory": 417,
+        "building": 237,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -4274,9 +4100,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4284,8 +4110,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -4293,15 +4119,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Effects.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         }
       ],
       "profile": {
-        "factory": 489,
-        "building": 7
+        "factory": 761,
+        "building": 11
       },
       "failed": false,
       "errors": 0,
@@ -4529,9 +4355,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4540,14 +4366,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -4667,9 +4493,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4678,14 +4504,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -4751,9 +4577,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4762,14 +4588,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -4835,9 +4661,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4846,14 +4672,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -4919,9 +4745,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -4930,14 +4756,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5021,9 +4847,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5032,14 +4858,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5123,9 +4949,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5134,14 +4960,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5207,9 +5033,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5218,14 +5044,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5327,9 +5153,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5338,14 +5164,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5555,9 +5381,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5566,14 +5392,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5639,9 +5465,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5650,14 +5476,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5723,9 +5549,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5734,14 +5560,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5807,9 +5633,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5818,14 +5644,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -5920,9 +5746,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -5931,14 +5757,14 @@
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-ui/index.js",
           "profile": {
             "factory": 0,
-            "building": 5
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 253,
-        "dependencies": 115
+        "factory": 17,
+        "building": 338,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -6038,15 +5864,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 5
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -6125,9 +5951,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6135,8 +5961,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6144,9 +5970,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6154,8 +5980,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6163,9 +5989,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6173,8 +5999,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         },
         {
@@ -6182,15 +6008,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/lib/FrameRate.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/lib/FrameRate.js",
           "profile": {
-            "factory": 54,
-            "building": 217,
+            "factory": 73,
+            "building": 318,
             "dependencies": 2
           }
         }
       ],
       "profile": {
-        "factory": 26,
-        "building": 10
+        "factory": 28,
+        "building": 6
       },
       "failed": false,
       "errors": 0,
@@ -6245,9 +6071,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         },
         {
@@ -6255,14 +6081,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-polyfills/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-polyfills/index.js",
           "profile": {
-            "factory": 0,
-            "building": 46
+            "factory": 2,
+            "building": 45
           }
         }
       ],
       "profile": {
-        "factory": 66,
-        "building": 12
+        "factory": 95,
+        "building": 18
       },
       "failed": false,
       "errors": 0,
@@ -6317,15 +6143,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         }
       ],
       "profile": {
-        "factory": 0,
-        "building": 46
+        "factory": 2,
+        "building": 45
       },
       "failed": false,
       "errors": 0,
@@ -6371,9 +6197,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6381,8 +6207,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6390,9 +6216,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6400,8 +6226,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6409,9 +6235,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6419,15 +6245,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 57,
-        "building": 92,
-        "dependencies": 1
+        "factory": 78,
+        "building": 140,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -6511,9 +6337,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6521,8 +6347,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6530,9 +6356,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6540,8 +6366,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6549,9 +6375,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6559,15 +6385,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 57,
-        "building": 92,
-        "dependencies": 1
+        "factory": 78,
+        "building": 140,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -6633,9 +6459,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6643,8 +6469,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6652,9 +6478,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6662,8 +6488,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6671,9 +6497,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6681,15 +6507,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 57,
-        "building": 92,
-        "dependencies": 1
+        "factory": 78,
+        "building": 140,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -6755,9 +6581,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6765,8 +6591,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6774,9 +6600,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6784,8 +6610,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6793,9 +6619,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6803,15 +6629,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 57,
-        "building": 92,
-        "dependencies": 1
+        "factory": 78,
+        "building": 140,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -6877,9 +6703,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -6887,8 +6713,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -6896,9 +6722,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -6906,8 +6732,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -6915,9 +6741,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -6925,15 +6751,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-geom/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 57,
-        "building": 92,
-        "dependencies": 1
+        "factory": 78,
+        "building": 140,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -7017,9 +6843,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7027,8 +6853,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7036,9 +6862,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7046,8 +6872,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7055,15 +6881,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         }
       ],
       "profile": {
-        "factory": 460,
-        "building": 7
+        "factory": 687,
+        "building": 9
       },
       "failed": false,
       "errors": 0,
@@ -7133,9 +6959,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7143,8 +6969,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7152,9 +6978,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7162,8 +6988,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7171,9 +6997,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -7181,14 +7007,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-external/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-external/index.js",
           "profile": {
-            "factory": 460,
-            "building": 7
+            "factory": 687,
+            "building": 9
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 45
+        "factory": 17,
+        "building": 61
       },
       "failed": false,
       "errors": 0,
@@ -7254,9 +7080,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7264,8 +7090,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7273,9 +7099,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7283,8 +7109,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7292,15 +7118,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/CssManager.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         }
       ],
       "profile": {
-        "factory": 460,
-        "building": 7
+        "factory": 687,
+        "building": 9
       },
       "failed": false,
       "errors": 0,
@@ -7411,9 +7237,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7421,8 +7247,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7430,9 +7256,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7440,8 +7266,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7449,9 +7275,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -7459,14 +7285,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -7533,9 +7359,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7543,8 +7369,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7552,9 +7378,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7562,8 +7388,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7571,9 +7397,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -7581,14 +7407,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -7768,9 +7594,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7778,8 +7604,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7787,9 +7613,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7797,8 +7623,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7806,9 +7632,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -7816,14 +7642,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -7908,9 +7734,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -7918,8 +7744,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -7927,9 +7753,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -7937,8 +7763,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -7946,9 +7772,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -7956,14 +7782,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -8030,9 +7856,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -8040,8 +7866,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -8049,9 +7875,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -8059,8 +7885,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -8068,9 +7894,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -8078,14 +7904,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -8170,9 +7996,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -8180,8 +8006,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -8189,9 +8015,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -8199,8 +8025,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -8208,9 +8034,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         },
         {
@@ -8218,14 +8044,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-events/index.js",
           "profile": {
-            "factory": 426,
-            "building": 12
+            "factory": 641,
+            "building": 16
           }
         }
       ],
       "profile": {
-        "factory": 54,
-        "building": 217,
+        "factory": 73,
+        "building": 318,
         "dependencies": 2
       },
       "failed": false,
@@ -8292,9 +8118,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -8302,8 +8128,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -8311,9 +8137,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -8321,8 +8147,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         },
         {
@@ -8330,15 +8156,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/lib/Expandable.js",
           "profile": {
-            "factory": 32,
-            "building": 244,
-            "dependencies": 443
+            "factory": 61,
+            "building": 332,
+            "dependencies": 663
           }
         }
       ],
       "profile": {
-        "factory": 426,
-        "building": 12
+        "factory": 641,
+        "building": 16
       },
       "failed": false,
       "errors": 0,
@@ -8724,15 +8550,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 16
+        "factory": 0,
+        "building": 23
       },
       "failed": false,
       "errors": 0,
@@ -8780,15 +8606,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 33
+        "factory": 2,
+        "building": 58
       },
       "failed": false,
       "errors": 0,
@@ -8836,16 +8662,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         }
       ],
       "profile": {
         "factory": 1,
-        "building": 258,
-        "dependencies": 178
+        "building": 39
       },
       "failed": false,
       "errors": 0,
@@ -8893,9 +8718,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--7-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/index.js",
           "profile": {
-            "factory": 77,
-            "dependencies": 203,
-            "building": 1646
+            "factory": 121,
+            "dependencies": 1,
+            "building": 2402
           }
         },
         {
@@ -8903,14 +8728,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/scope.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-entry/lib/scope.js",
           "profile": {
-            "factory": 1,
-            "building": 16
+            "factory": 0,
+            "building": 23
           }
         }
       ],
       "profile": {
-        "factory": 2,
-        "building": 311
+        "factory": 4,
+        "building": 465
       },
       "failed": false,
       "errors": 0,
@@ -8986,9 +8811,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -8996,8 +8821,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9005,9 +8830,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9015,15 +8840,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9091,9 +8916,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9101,8 +8926,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9110,9 +8935,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9120,15 +8945,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9226,9 +9051,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9236,8 +9061,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9245,9 +9070,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9255,15 +9080,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9329,9 +9154,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9339,8 +9164,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9348,9 +9173,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9358,15 +9183,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9435,9 +9260,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9445,8 +9270,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9454,9 +9279,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9464,15 +9289,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9556,9 +9381,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9566,8 +9391,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9575,9 +9400,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         },
         {
@@ -9585,15 +9410,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-control/index.js",
           "profile": {
-            "factory": 379,
-            "building": 14
+            "factory": 610,
+            "building": 22
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 244,
-        "dependencies": 443
+        "factory": 61,
+        "building": 332,
+        "dependencies": 663
       },
       "failed": false,
       "errors": 0,
@@ -9660,9 +9485,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9670,8 +9495,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/index.js",
           "profile": {
-            "factory": 0,
-            "building": 53
+            "factory": 1,
+            "building": 68
           }
         },
         {
@@ -9679,15 +9504,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-view/lib/Styles.js",
           "profile": {
-            "factory": 60,
-            "building": 213,
-            "dependencies": 1
+            "factory": 74,
+            "building": 288,
+            "dependencies": 2
           }
         }
       ],
       "profile": {
-        "factory": 379,
-        "building": 14
+        "factory": 610,
+        "building": 22
       },
       "failed": false,
       "errors": 0,
@@ -9821,9 +9646,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--8-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/.inline-imports.js",
           "name": "./1-build/300x250/.inline-imports.js",
           "profile": {
-            "factory": 200,
+            "factory": 285,
             "dependencies": 1,
-            "building": 746
+            "building": 1101
           }
         },
         {
@@ -9831,14 +9656,14 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/node_modules/@ff0000-ad-tech/ad-assets/index.js",
           "name": "./1-build/node_modules/@ff0000-ad-tech/ad-assets/index.js",
           "profile": {
-            "factory": 2,
-            "building": 41
+            "factory": 1,
+            "building": 58
           }
         }
       ],
       "profile": {
-        "factory": 16,
-        "building": 37
+        "factory": 14,
+        "building": 47
       },
       "failed": false,
       "errors": 0,
@@ -9904,15 +9729,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--8-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/.inline-imports.js",
           "name": "./1-build/300x250/.inline-imports.js",
           "profile": {
-            "factory": 200,
+            "factory": 285,
             "dependencies": 1,
-            "building": 746
+            "building": 1101
           }
         }
       ],
       "profile": {
-        "factory": 2,
-        "building": 41
+        "factory": 1,
+        "building": 58
       },
       "failed": false,
       "errors": 0,
@@ -9960,9 +9785,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -9970,8 +9795,8 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/common/js/control/Common.js",
           "name": "./1-build/common/js/control/Common.js",
           "profile": {
-            "factory": 1,
-            "building": 5,
+            "factory": 0,
+            "building": 10,
             "dependencies": 1
           }
         }
@@ -10045,15 +9870,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 5,
+        "factory": 0,
+        "building": 10,
         "dependencies": 1
       },
       "failed": false,
@@ -10102,15 +9927,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 4
+        "building": 5
       },
       "failed": false,
       "errors": 0,
@@ -10156,9 +9981,9 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         },
         {
@@ -10167,7 +9992,7 @@
           "name": "./1-build/common/js/boring.js",
           "profile": {
             "factory": 0,
-            "building": 4
+            "building": 5
           }
         }
       ],
@@ -10228,15 +10053,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--8-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/.inline-imports.js",
           "name": "./1-build/300x250/.inline-imports.js",
           "profile": {
-            "factory": 200,
+            "factory": 285,
             "dependencies": 1,
-            "building": 746
+            "building": 1101
           }
         }
       ],
       "profile": {
-        "factory": 236,
-        "building": 47
+        "factory": 314,
+        "building": 63
       },
       "failed": false,
       "errors": 0,
@@ -10282,15 +10107,15 @@
           "identifier": "/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/node_modules/@ff0000-ad-tech/webpack-rollup-babel-loader/index.js??ref--6-0!/Users/derek.miranda/Projects/babel6-vs-babel7/versions/webpack4-ad/1-build/300x250/build.js",
           "name": "./1-build/300x250/build.js",
           "profile": {
-            "factory": 200,
-            "dependencies": 5,
-            "building": 3468
+            "factory": 286,
+            "dependencies": 7,
+            "building": 4936
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 0
+        "factory": 0,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
