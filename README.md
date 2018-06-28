@@ -8,7 +8,7 @@ The output for each version consists of:
 
 - debug and production bundles
 - debug and production stats JSON
-- beautified/un-minified production bundles
+- beautified/un-minified production bundles, to make them easier to analyze
 
 ## Instructions
 
@@ -20,15 +20,15 @@ After that, you can run `npm run bundle` from the top-level of this folder to ge
 
 Babel 7 produces smaller bundles than 6:
 
-- Webpack 4 Compilation using Babel 6: **548.14 KiB**
-- Webpack 4 Compilation using Babel 7: **333.22 KiB**
+- Webpack 4 Compilation using Babel 6: **549.65 KiB**
+- Webpack 4 Compilation using Babel 7: **334.98 KiB**
 
 ## Production
 
 In production (using Rollup-Babel Webpack loader), Babel 7 produces larger bundles than 6:
 
-- Webpack 4 Compilation using Babel 6: **25.66 KiB**
-- Webpack 4 Compilation using Babel 7: **29.44 KiB**
+- Webpack 4 Compilation using Babel 6: **33.34 KiB**
+- Webpack 4 Compilation using Babel 7: **36.9 KiB**
 
 ## Next Steps
 
