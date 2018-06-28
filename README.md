@@ -2,7 +2,19 @@
 
 ## Background
 
-Testing a 300x250 banner built on `tmpl-standard-base`, which renders a few UIImages, against Webpack 4 configurations with Babel 6 and 7.
+Testing a 300x250 blank ad built on `tmpl-standard-base` against Webpack 4 configurations with Babel 6 and 7.
+
+The output for each version consists of:
+
+- debug and production bundles
+- debug and production stats JSON
+- beautified/un-minified production bundles
+
+## Instructions
+
+Before getting output, you'll need to run `npm install` in each version of the build.
+
+After that, you can run `npm run bundle` from the top-level of this folder to get the output of each version.
 
 ## Debug
 
