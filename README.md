@@ -1,5 +1,9 @@
 # Results
 
+## Background
+
+Testing a 300x250 banner built on `tmpl-standard-base`, which renders a few UIImages, against Webpack 4 configurations with Babel 6 and 7.
+
 ## Debug
 
 Babel 7 produces smaller bundles than 6:
