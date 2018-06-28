@@ -19,10 +19,11 @@ const dirs = [
 ];
 
 async function getAdBundles() {
+  init();
+
   const adVersions = await readdir(path.resolve("versions"));
   const compileVersionBundlesPromises = adVersions.map(async (version, idx) => {
     try {
-      init();
       const compileByModePromises = [
         compileVersion({
           version,
@@ -41,25 +42,13 @@ async function getAdBundles() {
       ];
 
       await Promise.all(compileByModePromises);
-
-      // get unminified version of production bundle
-      const prodBundlePath = path.resolve(
-        "versions",
-        version,
-        "3-traffic/default/300x250/build.bundle.js"
-      );
-      const minifiedSrc = await readFile(prodBundlePath, "utf8");
-      await writeFile(
-        path.resolve("beautified-prod-bundles", `${version}.bundle.js`),
-        beautify(minifiedSrc)
-      );
     } catch (err) {
       throw new Error(err);
     }
   });
 
   await Promise.all(compileVersionBundlesPromises);
-  console.log("Compilations complete");
+  console.log("\nBundling complete");
 }
 
 async function compileVersion({
@@ -68,6 +57,8 @@ async function compileVersion({
   cmdTemplate,
   relativeBundlePath
 }) {
+  console.log(`Starting ${mode} ${version} bundle`);
+
   // start Webpack compilation while exporting compilation information to json folder
   const versionPath = path.resolve("versions", version);
   const jsonPath = path.resolve(`${mode}-json/${version}.json`);
@@ -85,6 +76,22 @@ async function compileVersion({
     resolvedBundlePath,
     path.resolve(`${mode}-bundles/${version}.bundle.js`)
   );
+
+  // get beautified version of production bundle
+  if (mode === "prod") {
+    const prodBundlePath = path.resolve(
+      "versions",
+      version,
+      "3-traffic/default/300x250/build.bundle.js"
+    );
+    const minifiedSrc = await readFile(prodBundlePath, "utf8");
+    await writeFile(
+      path.resolve("beautified-prod-bundles", `${version}.bundle.js`),
+      beautify(minifiedSrc)
+    );
+  }
+
+  console.log(`Finished ${mode} ${version} bundle`);
 }
 
 async function init() {
