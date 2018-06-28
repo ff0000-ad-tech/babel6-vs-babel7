@@ -1,8 +1,8 @@
-[submodule "versions/webpack4-ad"]
-	path = versions/webpack4-ad
-	url = git@bitbucket.org:derekmiranda/webpack-4-dev.git
-	branch = develop/webpack4-no-watch
-[submodule "versions/webpack4-babel7-ad"]
-	path = versions/webpack4-babel7-ad
-	url = git@bitbucket.org:derekmiranda/webpack-4-dev.git
-	branch = develop/babel7-merge-no-watch
+[submodule "versions/webpack4"]
+	path = versions/webpack4
+	url = git@github.com:ff0000-ad-tech/tmpl-standard-base.git
+	branch = develop/webpack4
+[submodule "versions/webpack4-babel7"]
+	path = versions/webpack4-babel7
+	url = git@github.com:ff0000-ad-tech/tmpl-standard-base.git
+	branch = develop/webpack4-babel7
