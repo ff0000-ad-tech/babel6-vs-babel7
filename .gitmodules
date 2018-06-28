@@ -1,8 +1,8 @@
 [submodule "versions/webpack4-ad"]
 	path = versions/webpack4-ad
 	url = git@bitbucket.org:derekmiranda/webpack-4-dev.git
-	branch = develop/webpack4
+	branch = develop/webpack4-no-watch
 [submodule "versions/webpack4-babel7-ad"]
 	path = versions/webpack4-babel7-ad
 	url = git@bitbucket.org:derekmiranda/webpack-4-dev.git
-	branch = develop/babel7-merge
+	branch = develop/babel7-merge-no-watch
