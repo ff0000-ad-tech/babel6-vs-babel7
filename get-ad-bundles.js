@@ -7,40 +7,50 @@ const {
   mkdirp,
   stat
 } = require("fs-extra");
-const { exec } = require("child-process-promise");
+const {
+  exec
+} = require("child-process-promise");
 const beautify = require("js-beautify").js_beautify;
+
+const dirs = ['beautified-prod-bundles', 'prod-bundles', 'prod-json', 'debug-bundles', 'debug-json']
 
 async function getAdBundles() {
   const adVersions = await readdir(path.resolve("versions"));
-  const pathedAdVersions = adVersions.map(version =>
-    path.resolve("versions", version)
-  );
-
-  const compilePromises = pathedAdVersions.map(async (version, idx) => {
+  const compileVersionBundlesPromises = adVersions.map(async (version, idx) => {
     try {
-      const versionName = adVersions[idx];
-      const jsonPath = path.resolve("json", `${versionName}.json`);
+      init()
+      const compileByModePromises = [
+        compileVersion({
+          version,
+          mode: 'prod',
+          cmdTemplate: (versionPath, jsonPath) => `cd ${versionPath} && npx webpack --config 'webpack.config.js' --env '{"deploy":{"source":{"size":"300x250","index":"index.html"},"output":{"debug":false,"context":"./3-traffic"},"profile":{"name":"default","adEnvironment":{"id":"default","runPath":"","adPath":""}}},"key":"/default/300x250/index.html"}' --colors --profile --json > ${jsonPath}`,
+          relativeBundlePath: "3-traffic/default/300x250/build.bundle.js"
+        })
+      ]
 
-      // start Webpack compilation while exporting compilation information to json folder
-      await exec(
-        `cd ${version} && npx webpack --config 'webpack.config.js' --env '{"deploy":{"source":{"size":"300x250","index":"index.html"},"output":{"debug":false,"context":"./3-traffic"},"profile":{"name":"default","adEnvironment":{"id":"default","runPath":"","adPath":""}}},"key":"/default/300x250/index.html"}' --colors --profile --json > ${jsonPath}`
-      );
+      await Promise.all(compileByModePromises)
 
-      const bundlePath = path.resolve(
-        version,
-        "3-traffic/default/300x250/build.bundle.js"
-      );
+      // // start Webpack compilation while exporting compilation information to json folder
+      // await exec(
+      //   `cd ${version} && npx webpack --config 'webpack.config.js' --env '{"deploy":{"source":{"size":"300x250","index":"index.html"},"output":{"debug":false,"context":"./3-traffic"},"profile":{"name":"default","adEnvironment":{"id":"default","runPath":"","adPath":""}}},"key":"/default/300x250/index.html"}' --colors --profile --json > ${prodJsonPath}`
+      // );
 
-      // copy version bundle to bundles folder
-      await copy(
-        bundlePath,
-        path.resolve("bundles", `${versionName}.bundle.js`)
-      );
+      // const bundlePath = path.resolve(
+      //   version,
+      //   "3-traffic/default/300x250/build.bundle.js"
+      // );
 
-      // get unminified version of bundle
-      const minifiedSrc = await readFile(bundlePath, "utf8");
+      // // copy version bundle to bundles folder
+      // await copy(
+      //   bundlePath,
+      //   path.resolve("prod-bundles", `${versionName}.bundle.js`)
+      // );
+
+      // get unminified version of production bundle
+      const prodBundlePath = path.resolve("versions", version, "3-traffic/default/300x250/build.bundle.js")
+      const minifiedSrc = await readFile(prodBundlePath, "utf8");
       await writeFile(
-        path.resolve("beautified-bundles", `${versionName}.bundle.js`),
+        path.resolve("beautified-prod-bundles", `${version}.bundle.js`),
         beautify(minifiedSrc)
       );
     } catch (err) {
@@ -48,8 +58,37 @@ async function getAdBundles() {
     }
   });
 
-  await Promise.all(compilePromises);
+  await Promise.all(compileVersionBundlesPromises);
   console.log("Compilations complete");
+}
+
+async function compileVersion({
+  version,
+  mode,
+  cmdTemplate,
+  relativeBundlePath
+}) {
+  // start Webpack compilation while exporting compilation information to json folder
+  const versionPath = path.resolve("versions", version)
+  const jsonPath = path.resolve(`${mode}-json/${version}.json`);
+  await exec(cmdTemplate(versionPath, jsonPath));
+
+  const resolvedBundlePath = path.resolve(
+    'versions',
+    version,
+    relativeBundlePath
+  );
+
+  // copy version bundle to bundles folder
+  await copy(
+    resolvedBundlePath,
+    path.resolve(`${mode}-bundles/${version}.bundle.js`)
+  );
+}
+
+async function init() {
+  const mkdirPromises = dirs.map(dir => mkdirp(path.resolve(dir)))
+  await Promise.all(mkdirPromises)
 }
 
 getAdBundles();
