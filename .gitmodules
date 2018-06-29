@@ -10,3 +10,6 @@
 	path = versions/webpack4-babel7-no-rollup
 	url = git@github.com:ff0000-ad-tech/tmpl-standard-base.git
 	branch = develop/webpack4-babel7-no-rollup
+[submodule "versions/current"]
+	path = versions/current
+	url = git@github.com:ff0000-ad-tech/tmpl-standard-base.git
