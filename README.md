@@ -29,6 +29,7 @@ In production (using Rollup-Babel Webpack loader), Babel 7 produces larger bundl
 
 - Webpack 4 Compilation using Babel 6: **33.34 KiB**
 - Webpack 4 Compilation using Babel 7: **36.9 KiB**
+- Webpack 4 Compilation using Babel 7 w/o Rollup: **73.95 KiB**
 
 ## Next Steps
 
